@@ -1,1 +1,59 @@
+:root {
+  --favorite-color: #ffe5e5c2;
+  --secondary-color: #d6eec87d;
+  --primary-font-family: "Baloo 2", cursive;
+  --secondary-font-family: "Lexend Exa", sans-serif;
+}
+body {
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ddefbb,
+    #ffeeee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ddefbb,
+    #ffeeee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+h1,
+h2,
+h3,
+p {
+  font-family: var(--secondary-font-family);
+}
+
+h1 {
+  padding: 10px;
+}
+
+.portfolio h2 {
+  margin-top: 70px;
+}
+
+h3 {
+  opacity: 0.8;
+  padding: 25px;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 55px;
+}
+
+.btn-favorite {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  background: var(--secondary-color);
+  font-family: var(--secondary-font-family);
+}
+
+.btn-favorite-outline {
+  display: block;
+  text-align: center;
+  background: var(--favorite-color);
+  font-family: var(--secondary-font-family);
+}

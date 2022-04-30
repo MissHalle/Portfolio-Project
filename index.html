@@ -19,24 +19,78 @@
       src="https://kit.fontawesome.com/c00e41e9f1.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Lexend+Exa:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/portfolio.css" />
 
-    <title>Portfolio Project</title>
+    <title>Portfolio Project | by Halle Gregory</title>
   </head>
   <body>
-    <h2>Hiya 👋 I am</h2>
-    <h1>Halle Gregory</h1>
-    <h3>A front-end developer currently living in USA</h3>
+    <div class="portfolio">
+      <h2 class="text-center">Hiya 👋 I am</h2>
+      <h1 class="text-center">Halle Gregory</h1>
+      <h3 class="text-center">A front-end developer currently living in USA</h3>
+      <div>
+        <a href="#" class="btn btn-favorite">Contact Me!</a>
+      </div>
+    </div>
+    <br />
+    <p class="text-center">Below are some featured projects created by me!</p>
     <div class="container">
-      <div class="row">
+      <div class="row m-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/SheCodes-Basic-Project.png"
+            class="img-fluid"
+            alt="SheCodes Basic Workshop: Vegan Project by Halle Gregory"
+          />
+        </div>
         <div class="col">
-          <img src="images/SheCodes-Basic-Project.png" class="img-fluid" />
-          <p>
-            This project through SheCodes Basic workshop helped me create this
-            page with these functions/reasons/tools.
-          </p>
+          <div class="portfolio-project-decription-paragraph">
+            <h2 class="mb-5 text-center">SheCodes Basic Workshop Project</h2>
+            <p class="m-5 text-muted">
+              This project through the SheCodes Basic workshop helped me create
+              this page. Included in this project are HTML elements, attributes,
+              classes, and CSS selectors, positioning, borders, and styling,
+              Javascript variables, if-statements, operators, functions, and
+              events. I created my page on the lifestlye of a vegan, with some
+              tips and tricks.
+            </p>
+            <a href="#" class="btn btn-favorite-outline">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row m-5">
+        <div class="col">
+          <div class="portfolio-project-decription-paragraph">
+            <h2 class="mb-5 text-center">SheCodes Plus Workshop Project</h2>
+            <p class="m-5 text-muted">
+              This project through the SheCodes Plus workshop allowed me to
+              create a weather application page in 8 weeks. This was done by
+              using advance tools in HTML, CSS, and Javascript within Visual
+              Studio Code. Bootstrap is also applied and being used. The
+              workshop covered API's and installing Github, along with
+              connecting to Netlify. With how to tips from Matt and practice
+              using Wireframe, we created an outline for this project that
+              allowed us to see our vision.
+            </p>
+            <a href="#" class="btn btn-favorite-outline">Learn more</a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/SheCodes-Plus-Project.png"
+            class="img-fluid"
+            alt="SheCodes Plus Workshop: Weather Project by Halle Gregory"
+          />
         </div>
       </div>
     </div>
+    <br />
   </body>
 </html>
