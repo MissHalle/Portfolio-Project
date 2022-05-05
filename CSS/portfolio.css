@@ -36,10 +36,6 @@ h1 {
   padding: 10px;
 }
 
-.portfolio h2 {
-  margin-top: 70px;
-}
-
 h3 {
   opacity: 0.8;
   padding: 25px;
@@ -48,6 +44,38 @@ h3 {
 
 p {
   margin-top: 55px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 35px;
+  margin-left: 15px;
+  text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: brown;
+  transition: all 100ms ease-in;
+}
+
+nav a:hover,
+nav li:active a {
+  color: rgb(72, 75, 68);
+}
+
+.portfolio h2 {
+  margin-top: 70px;
 }
 
 .btn-favorite {
