@@ -61,6 +61,7 @@ nav li {
   line-height: 35px;
   margin-left: 15px;
   text-align: right;
+  font-family: var(--secondary-font-family);
 }
 
 nav a {
