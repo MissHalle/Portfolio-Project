@@ -50,6 +50,12 @@ nav li {
   font-family: var(--secondary-font-family);
 }
 
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .portfolio h1 {
   font-size: 30px;
 }
