@@ -115,3 +115,9 @@ nav li {
 .project-links {
   font-family: var(--primary-font-family);
 }
+
+.github-link {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+}
