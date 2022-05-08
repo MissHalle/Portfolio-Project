@@ -1,6 +1,7 @@
 :root {
   --favorite-color: #ffe5e5c2;
   --secondary-color: #d6eec87d;
+  --tertiary-color: brown;
   --primary-font-family: "Baloo 2", cursive;
   --secondary-font-family: "Lexend Exa", sans-serif;
 }
@@ -32,10 +33,6 @@ p {
   font-family: var(--secondary-font-family);
 }
 
-h1 {
-  padding: 10px;
-}
-
 h3 {
   opacity: 0.8;
   padding: 25px;
@@ -44,43 +41,27 @@ h3 {
 
 p {
   margin-top: 55px;
-}
-
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
+  font-weight: bold;
 }
 
 nav li {
   display: inline;
-  list-style: none;
-  line-height: 35px;
-  margin-left: 15px;
   text-align: right;
   font-family: var(--secondary-font-family);
 }
 
-nav a {
-  text-decoration: none;
-  color: brown;
-  transition: all 100ms ease-in;
-}
-
-nav a:hover,
-nav li:active a {
-  color: rgb(47, 49, 43);
+.portfolio h1 {
+  font-size: 30px;
 }
 
 .portfolio h2 {
-  margin-top: 70px;
+  margin-top: 45px;
+  font-size: 48px;
 }
 
 .btn-favorite {
   display: block;
+  max-width: 100%;
   text-align: center;
   font-size: 30px;
   background: var(--secondary-color);
@@ -129,4 +110,8 @@ nav li:active a {
   max-width: 100%;
   white-space: nowrap;
   text-align: center;
+}
+
+.project-links {
+  font-family: var(--primary-font-family);
 }
